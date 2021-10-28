@@ -1,0 +1,31 @@
+footer {
+  background-color: #000;
+  color: #F8F4E3;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons-list {
+  list-style: none;
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-list a {
+  text-decoration: none;
+}
+
+.icons-list i {
+  font-size: 40px;
+  color: #F58A07;
+  transition: .3s;
+}
+
+.icons-list i:hover {
+  transform: scale(1.05);
+  color: #F8F4E3;
+}

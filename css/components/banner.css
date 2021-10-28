@@ -1,0 +1,23 @@
+.banner {
+  background-color: #945D5E;
+  background-image: url('../../images/bg.jpg');
+  background-size: cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-container {
+  color: #F8F4E3;
+  width: 60%;
+}
+
+.banner-container h1 {
+  font-size: 48px;
+  text-shadow: 2px 2px 8px rgba(245, 138, 7, .5);
+}
+
+.banner-container p {
+  font-size: 24px;
+}

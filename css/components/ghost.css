@@ -1,0 +1,52 @@
+.ghost {
+  font-size: 70px;
+  position: absolute;
+  top: 20px;
+  left: 0;
+  color: #F8F4E3;
+  transition: 1s;
+  /* transition: 2s; */
+}
+
+.ghost:hover {
+  color: #F58A07;
+  transform: rotate(360deg);
+}
+/* .animated {
+  animation: fly 60s infinite linear;
+}
+
+
+/*
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fly {
+  0% {
+    transform: translate(0,0);
+  }
+  10% {
+    transform: translate(200px, 50px);
+  }
+  20% {
+    transform: translate(400px, -30px);
+  }
+  30% {
+    transform: translate(600px, 200px);
+  }
+  40% {
+    transform: translate(800px, -50px);
+  }
+  50% {
+    transform: translate(1000px, 100px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+} */

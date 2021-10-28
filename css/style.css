@@ -1,0 +1,37 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&family=Zen+Kurenaido&display=swap');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url('components/banner.css');
+@import url('components/button.css');
+@import url('components/card.css');
+@import url('components/footer.css');
+@import url('components/ghost.css');
+
+/* Utilities */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Zen Kurenaido', sans-serif;
+  background-color: #F8F4E3;
+  position: relative;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Rock Salt', cursive;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.heading-center {
+  text-align: center;
+  margin: 32px;
+}
