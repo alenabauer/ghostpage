@@ -1,16 +1,22 @@
 .ghost {
-  font-size: 70px;
+  font-size: 64px;
   position: absolute;
   top: 20px;
   left: 0;
   color: #F8F4E3;
   transition: 1s;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transform: rotate(20deg);
   /* transition: 2s; */
 }
 
 .ghost:hover {
   color: #F58A07;
   transform: rotate(360deg);
+}
+.ghost:hover::after {
+  content: "  Boo!";
+  font-size: 24px;
 }
 /* .animated {
   animation: fly 60s infinite linear;
