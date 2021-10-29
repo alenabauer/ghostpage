@@ -1,8 +1,6 @@
 .ghost {
   font-size: 64px;
   position: absolute;
-  top: 20px;
-  left: 0;
   color: #F8F4E3;
   transition: 1s;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
